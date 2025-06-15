@@ -5,14 +5,14 @@ from task_4.bot_assistant import main as start_bot
 
 
 total, average = total_salary("task_1/salaries.txt")
-# print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
+print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
 
 
 cats_info = get_cats_info("task_2/cats_info.txt")
-# print(cats_info)
+print(cats_info)
 
 
-# print_directory_tree()
+print_directory_tree()
 
 
 start_bot()
